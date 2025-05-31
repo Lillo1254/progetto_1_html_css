@@ -1,0 +1,54 @@
+body {
+    background:url(./media/asfalt-dark.png), rgb(250,245,235) ;
+
+    font-family: 'Times New Roman', Times, serif;
+background-attachment: fixed;
+
+}
+
+*{
+ color: rgba(48, 48, 48, 0.86);   
+}
+
+.border-title{
+    border-bottom: 5px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+.border-article{
+     border-right: 1px solid  rgba(48, 48, 48, 0.86);
+}
+
+.h1-title{
+    color: rgb(158, 48, 48);
+}
+
+.img-journal{
+    opacity: 0.8;
+}
+.img-journal-title{
+     opacity: 0.8;
+}
+@media (max-width: 1399.98px) {
+  .img-journal-title {
+    display: none;
+  }
+}
+@media (max-width: 699.98px) {
+  .centrato {
+    display: flex;
+    justify-content: center;
+  }
+  .h1-text-title{
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+}
+@media (max-width: 900px) {
+  .middle-screen {
+    display: flex;
+    justify-content: center;
+  }
+}
